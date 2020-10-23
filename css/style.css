@@ -1,0 +1,113 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(22, 160, 133);
+    padding: 1em 1em;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(22, 160, 133);
+    padding: 5em 1em;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footericon{
+    font-size: 2em;
+    margin: 0.1em;
+}
+
+.white-text{
+    color: white;
+}
+
+.container{
+    margin-left: 2em;
+}
+
+.container-fluid p{
+    margin-left: 2em;
+}
+
+.container-fluid article{
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+.container-fluid article h4{
+    padding: 0.75em;
+}
+
+.container-fluid article h2{
+    padding: 0.75em;
+}
+
+.container-fluid h1{
+    padding-bottom: 0.75em;
+}
+
+.logo{
+   margin-bottom: 0.25em;
+    color: white;
+    font-size: 2em;
+}
+
+.logotext{
+     color: white;
+     font-size: 1.5em;
+ }
+ 
+.navbar {
+    color: snow;
+    background-color:rgb(78, 205, 184);
+    width: 50%;
+    box-shadow: 0.01em 0.01em 0.4em rgb(78, 205, 184);
+}
+
+.container-custom-grey{
+    background-color: rgb(243, 243, 243);
+    padding: 5em 1em;
+    box-sizing: border-box;
+}
+
+.container-custom-white{
+    background-color: white;
+    padding: 1em 1em;
+    box-sizing: border-box;
+}
+
+.custom-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background: rgb(22, 160, 133);
+    margin: 1em;
+    border-radius: 0%;
+}
+
+.under-link {
+    text-decoration: underline;
+}
+
+.icon-class{
+    font-size: 2em;
+    color: white;
+    display: inline-block;
+    border-radius: 1em;
+    box-shadow: 0px 0px 2px rgb(22, 160, 133);
+    padding: 0.5em 0.6em;
+    margin: 1em;
+    background:  rgb(22, 160, 133);
+}
+
+@media(max-width:767px){
+    .navbar{
+        width: 70%;
+        text-align: center;
+    }
+}
